@@ -37,6 +37,9 @@
     
     <link rel="stylesheet" href="/styles/tweetcontainer.css"/>
 
+    <link rel="stylesheet" href="/styles/alerts.css"/>
+
+
 
     <!-- External JS -->
     <script 
@@ -74,20 +77,40 @@
 
     </nav>
 
-  <header id="pageHead">
-    <div>
-        <img 
-          class="avatar"
-          src="/images/profile-hex.png"> 
-    </div>  
-    <div>
-        <h3 class="name">Your Name</h3>
-          </div>
-  </header>
+    <!-- Profile Header -->
+       <header id="pageHead">
+          <div>
+             <img 
+               class="avatar"
+               src="/images/profile-hex.png"> 
+          </div>  
+          <div>
+              <h3 class="name">Your Name</h3>
+                </div>
+       </header>
 
     <!-- Page-specific (main) content here -->
     <main 
       class="container">
+
+    <!-- Hidden Alerts -->
+      <div>
+
+        <section class="alert-box" id="alert-boxA">
+          <i class="fa-solid fa-skull-crossbones"></i>
+          <span class="warn-text">Oops, you forgot to tweet!</span>
+          <i class="fa-solid fa-skull-crossbones"></i>
+        </section>
+
+        <section class="alert-box" id="alert-boxB">
+          <i class="fa-solid fa-skull-crossbones"></i>
+          <span class="warn-text">Max 140 characters!</span>
+          <i class="fa-solid fa-skull-crossbones"></i>
+        </section>
+
+      </div>
+
+    <!-- Tweet Entry Form -->
       <section 
         class="new-tweet">
         <h2>Compose Tweet</h2>
