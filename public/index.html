@@ -70,9 +70,11 @@
         <span>
           <strong>Write</strong> a new tweet</span>
         <span>
+          <button id="compose-tweet">
           <i 
             class="fa-solid fa-angles-down">
           </i>
+          </button>
         </span>
       </div>
 
@@ -98,15 +100,15 @@
       <div>
 
         <section class="alert-box" id="alert-boxA">
-          <i class="fa-solid fa-skull-crossbones"></i>
-          <span class="warn-text">Oops, you forgot to tweet!</span>
-          <i class="fa-solid fa-skull-crossbones"></i>
+          
+          <span class="warn-text"><i class="fa-solid fa-skull-crossbones"></i>Oops, you forgot to tweet!<i class="fa-solid fa-skull-crossbones"></i></span>
+          
         </section>
 
         <section class="alert-box" id="alert-boxB">
-          <i class="fa-solid fa-skull-crossbones"></i>
-          <span class="warn-text">Max 140 characters!</span>
-          <i class="fa-solid fa-skull-crossbones"></i>
+          
+          <span class="warn-text"><i class="fa-solid fa-skull-crossbones"></i>Max 140 characters!<i class="fa-solid fa-skull-crossbones"></i></span>
+          
         </section>
 
       </div>
@@ -135,7 +137,7 @@
           </div>
         </form>
       </section>
-
+<!-- New Tweets appended with jQuery -->
       <section 
         id="tweetcontainer">
       </section>  

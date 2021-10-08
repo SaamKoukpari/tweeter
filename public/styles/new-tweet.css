@@ -49,6 +49,7 @@ form {
   font-family: "Bungee", sans-serif;
 }
 
+/* media query responsive design */
 @media only screen and (min-width : 1024px) {
   .new-tweet {
     display: flex;

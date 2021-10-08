@@ -1,3 +1,4 @@
+//function to count number of characters in tweet text area
 $(document).ready(function() {
 
   $("#tweet-text").on("input",function() {

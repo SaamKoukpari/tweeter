@@ -60,6 +60,7 @@
   box-shadow: 5px 5px #8093d1;
 }
 
+/* media query responsive design */
 @media only screen and (min-width : 1024px) {
   #tweetcontainer {
     display: flex;

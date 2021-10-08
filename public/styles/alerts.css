@@ -1,7 +1,7 @@
  .alert-box {
   display: none;
   width: 100%;
-  height: 100px;
+  height: auto;
   border: 3px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -10,14 +10,18 @@
   color: rgb(165, 64, 64);
   font-weight: 600;
   font-size: x-large;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 .warn-text {
+  display: flex;
   margin: auto;
+  justify-content: center;
 }
 
 section > img {
+  display: flex;
   margin: 17px;
+  justify-content: center;
 }
