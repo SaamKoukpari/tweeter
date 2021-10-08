@@ -7,10 +7,12 @@ $(document).ready(() => {
 
     if ($input.val().length === 0) { 
       $("#alert-boxA").slideDown('slow');
+      $("#alert-boxA").delay(1000).slideUp('slow');
       error = true;
     }
     if ($input.val().length > 140) { 
       $("#alert-boxB").slideDown('slow');
+      $("#alert-boxB").delay(1000).slideUp('slow');
       error = true;
     } 
     if (error === false) {
