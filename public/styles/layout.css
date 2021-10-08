@@ -35,3 +35,45 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ @media only screen and (min-width : 1024px) {
+  body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .container {
+    padding-top: 17.5%;
+  }
+
+  /* #pageHead {
+    flex-direction: column;
+    width: 10%;
+    margin-top: 25%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 25%;
+    box-shadow: 10px 10px 7px 0px rgb(51, 51, 51);
+  } */
+
+  .tweethead {
+    padding: 5px;
+  }
+
+  .tweetarticle {
+    height: 200px;
+  }
+
+  .avatar {
+    align-items: center;
+  }
+
+  .container { 
+    max-width: 50%;
+  }
+  body > img#up-toggle {
+    margin-left: 96%;
+  }
+}

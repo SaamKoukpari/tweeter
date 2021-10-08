@@ -31,7 +31,8 @@ form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  font-weight: 600 
+  font-weight: 600; 
+  align-items: left;
 }
 
 .red {
@@ -46,4 +47,40 @@ form {
 
 .counter {
   font-family: "Bungee", sans-serif;
+}
+
+@media only screen and (min-width : 1024px) {
+  .new-tweet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-right: 8%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 600; 
+    margin-right: 25%;
+  }
+
+  .separate {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8%;
+  }
+
+  textarea {
+    background-color: #f4f1ec;
+    font-weight: 600; 
+    border-bottom: 3px solid;
+    border-color: black;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-bottom: 15px;
+    margin-right: 8%;
+  }
 }
