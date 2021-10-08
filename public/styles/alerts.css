@@ -25,3 +25,10 @@ section > img {
   margin: 17px;
   justify-content: center;
 }
+
+@media only screen and (min-width : 1024px) {
+  .alert-box {
+    display: none;
+    width: 92%;
+  }
+}
