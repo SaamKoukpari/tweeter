@@ -24,5 +24,7 @@ We built upon backend source code to practice HTML, CSS, JS, jQuery and AJAX fro
 
 - Express
 - Node 5.10.x or above
+- Chance
+- Body-Parser
 
 
